@@ -1,6 +1,7 @@
 @import "compass";
 
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$font-size-base: 16px;
 
 @import 'sass-bootstrap/lib/bootstrap';
 
@@ -19,10 +20,6 @@ body {
 .container.wwc {
     width: 100%;
 
-    background: url("../images/background.png") center center repeat-y;
-    background-size: contain;
-    min-height: 900px;
-
     @media (min-width: $screen-md) {
         width: 800px;
     }
@@ -40,6 +37,15 @@ body {
 
 .organizer-logo {
     width: 200px;
+}
+
+.code-url {
+    margin-top: $padding-large-vertical;
+    margin-bottom: $padding-large-vertical;
+
+    input {
+        font-family: $font-family-monospace;
+    }
 }
 
 .logo {
@@ -70,5 +76,11 @@ body {
 .btn-toolbar {
     &.spaced {
         margin: $padding-large-vertical 0;
+    }
+}
+
+@media screen and (min-width: $screen-sm-min) {
+    .modal-dialog {
+        width: 80%;
     }
 }

@@ -6,11 +6,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>wwc</title>
-        <meta name="description" content="">
+        <title>Women Who Code &mdash; 2013</title>
+        <meta name="description" content="Women Who Code &mdash; 2013">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/c6bb8011.main.css">
+        <link rel="stylesheet" href="styles/b91f3f2f.main.css">
         <script src="scripts/vendor/f7f27360.modernizr.js"></script>
     </head>
     <body>
@@ -30,36 +30,67 @@
                 <p class="lead">Welcome to the first ever <strong>Women Who Code</strong> Hack Day in India!</p>
             </div>
 
-            <div class="info">
-                <p>This November our own Silicon City will experience some of the enthusiastic women developers coming together and hacking their way to glory.</p>
-
-                <p>Women Who Code is a group that supports women worldwide, no matter what their skills levels are, in learning about, practicing and exploring computer programming. All you need to have is a curious mind and passion to learn.</p>
-
-                <p>The theme for this meetup is &ldquo;<strong>Hack A Way with AngularJS</strong>&rdquo;. The 3-hours meetup is a great place for novice and experienced female developers to hone their AngularJS skills, meet other women from colleges and tech industry, network with their peers, and have a safe space to learn and ask questions.</p>
-
-                <p>There is just one mantra &mdash; &ldquo;<strong>Work, Chat, Eat and Network</strong>&rdquo;!</p>
-            </div>
-
             <div class="starter-kit text-center">
-
-                <p class="lead">Have fun and happy coding!</p>
-
                 <div class="btn-group-vertical">
-                    <a class="btn btn-lg btn-default" href="https://github.com/arathyjan/womanwhocode-angular-weatherforcast/archive/master.zip">Download starter kit (zip)</a>
                     <a class="btn btn-lg btn-default" href="https://github.com/arathyjan/womanwhocode-angular-weatherforcast">Clone/Fork on Github</a>
                     <a class="btn btn-lg btn-default" href="github-mac://openRepo/https://github.com/arathyjan/womanwhocode-angular-weatherforcast"><span class="logo os mac"></span> Clone with Github for Mac</a>
                     <a class="btn btn-lg btn-default" href="github-windows://openRepo/https://github.com/arathyjan/womanwhocode-angular-weatherforcast"><span class="logo os windows"></span> Clone with Github for Windows</a>
+                    <a class="btn btn-lg btn-primary" href="https://github.com/arathyjan/womanwhocode-angular-weatherforcast/archive/master.zip">Download starter kit (zip)</a>
                 </div>
+
+                <div class="code-url">
+                    <p>Or <code>git clone</code> from your terminal&hellip;</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" value="git clone git@github.com:arathyjan/womanwhocode-angular-weatherforcast.git">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" value="git clone https://github.com/arathyjan/womanwhocode-angular-weatherforcast.git">
+                            <span class="help-block">Use <strong><abbr title="Command (Apple)">⌘</abbr>/<abbr title="Control">Ctrl</abbr> + A</strong> and <strong><abbr title="Command (Apple)">⌘</abbr>/<abbr title="Control">Ctrl</abbr> + C</strong> to copy to clipboard.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="info">
+                <h3>Let&rsquo;s get started!</h3>
+                <p class="lead">Setting up your project is as easy as 1&mdash;2&mdash;3!</p>
+                <p>To setup your project, <code>cd</code> into your project directory and do the following...</p>
+                <ol>
+                    <li>
+                        <p>Install <code>bower</code>, <code>grunt-cli</code> and <code>compass</code> modules globally. This is a one time task.</p>
+                        <pre class="pre-scrollable">npm install -g bower
+npm install -g grunt-cli
+gem install compass</pre>
+                    </li>
+                    <li>
+                        <p>Set up local node dependencies. This installs all the node dependencies into the <code>node_modules</code> directory.</p>
+                        <pre class="pre-scrollable">npm install</pre>
+                    </li>
+                    <li>
+                        <p>Set up the UI component dependencies. This installs all the UI dependencies into the <code>app/components</code> directory.</p>
+                        <pre class="pre-scrollable">bower install</pre>
+                    </li>
+                </ol>
+
+                <p>&hellip; and that&rsquo;s all! You&rsquo;re good to go!</p>
+
+                <button class="btn btn-primary center-block" data-toggle="modal" data-target="#modal-project-directory-structure">
+                    View Project Directory Structure
+                </button>
+
             </div>
 
             <div class="downloads">
                 <h3>Development tools</h3>
-                <p class="lead">Don&rsquo;t have the required development tools? Don&rsquo;t worry! We&rsquo;ve got you covered!</p>
+                <p class="lead">Don&rsquo;t have the required development tools? Don&rsquo;t worry! We&rsquo;ve got your back!</p>
+                <p>You&rsquo;ll find the following tools helpful for your development&hellip;</p>
 
                 <ul class="media-list">
                     <li class="media">
                         <a class="pull-left" href="http://sublimetext.com/3">
-                            <img class="media-object" src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" width="64" height="64" alt="Sublime Text">
+                            <img class="media-object" src="images/37c5668e.sublime-logo.png" width="64" height="64" alt="Sublime Text">
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading">Sublime Text <small>v3, build 3047</small></h4>
@@ -82,7 +113,7 @@
                                 </div>
 
                                 <div class="btn-group">
-                                    <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203047.dmg" class="btn btn-default"><span class="logo os mac"></span> OS X</a>
+                                    <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203047.dmg" class="btn btn-default"><span class="logo os mac"></span> 32/64&ndash;bit (dmg)</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +161,7 @@
                             <img class="media-object" src="images/c4de43ca.nodejs-logo.png" width="64" alt="NodeJS">
                         </a>
                         <div class="media-body">
-                            <h4 class="media-heading">NodeJS <small>v0.10.21</small></h4>
+                            <h4 class="media-heading">Node.js <small>v0.10.21</small></h4>
                             <p>Node.js is a software platform that is used to build scalable network (especially server-side) applications.</p>
                             <div class="btn-group btn-group-md">
                                 <a href="http://nodejs.org/dist/v0.10.21/node-v0.10.21-x86.msi" class="btn btn-default"><span class="logo os windows"></span> 32&ndash;bit (msi)</a>
@@ -141,7 +172,22 @@
                                 <a href="http://nodejs.org/dist/v0.10.21/node-v0.10.21-linux-x64.tar.gz" class="btn btn-default"><span class="logo os linux"></span> 64&ndash;bit (tar)</a>
                             </div>
                             <div class="btn-group">
-                                <a href="http://nodejs.org/dist/v0.10.21/node-v0.10.21.pkg" class="btn btn-default"><span class="logo os mac"></span> OS X</a>
+                                <a href="http://nodejs.org/dist/v0.10.21/node-v0.10.21.pkg" class="btn btn-default"><span class="logo os mac"></span> 32/64&ndash;bit (pkg)</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="media">
+                        <a class="pull-left" href="https://npmjs.org">
+                            <img class="media-object" src="images/56e07f86.npm-logo.png" width="64" alt="NPMJS">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">npm <small>v1.3.11</small></h4>
+                            <p>npm is the official package manager for Node.js.</p>
+                            <div class="spaced btn-toolbar">
+                                <div class="btn-group">
+                                    <a href="https://npmjs.org" class="btn btn-default"><span class="logo os windows"></span><span class="logo os linux"></span><span class="logo os mac"></span> 32/64&ndash;bit</a>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -155,7 +201,7 @@
                             <p>Google Chrome is a freeware web browser developed by Google.</p>
                             <div class="spaced btn-toolbar">
                                 <div class="btn-group">
-                                    <a href="https://www.google.com/intl/en/chrome/browser" class="btn btn-default">Download</a>
+                                    <a href="https://www.google.com/intl/en/chrome/browser" class="btn btn-default"><span class="logo os windows"></span><span class="logo os linux"></span><span class="logo os mac"></span> 32/64&ndash;bit</a>
                                 </div>
                             </div>
                         </div>
@@ -178,16 +224,87 @@
                 </ul>
             </div>
 
+            <div class="resources">
+                <h3>Next steps&hellip;</h3>
+                <p class="lead">Hungry for more AngularJS?</p>
+                <p>Here are some great resources where you can learn more about AngularJS&hellip;</p>
+                <ul>
+                    <li><a href="http://net.tutsplus.com/articles/resources-to-get-you-up-to-speed-in-angularjs">Nettuts+ &mdash; Resources to Get You Up to Speed in AngularJS</a></li>
+                    <li><a href="https://github.com/jmcunningham/AngularJS-Learning#readme">Jeff Cunningham&rsquo;s list of AngularJS resources</a></li>
+                </ul>
+            </div>
+
             <hr>
 
-            <footer class="organizer-logo center-block">
-                <p class="text-center">Supported by</p>
-                <a href="http://www.thoughtworks.com">
-                    <img class="img-responsive center-block" src="images/5b40472e.tw-logo.png" alt="ThoughtWorks">
-                </a>
-            </footer>
+            <p class="lead text-center">Thank you for coming! Have fun and happy coding!</p>
         </div>
 
+        <div class="modal fade" id="modal-project-directory-structure" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Project directory structure</h4>
+                    </div>
+                    <div class="modal-body">
+                        <pre>
+├── app (Entire webapp, source code)
+│   ├── components (All front end components)
+│   │   ├── angular
+│   │   └── ...
+│   ├── modules (Application code modules, with own js/html views)
+│   │   ├── patient
+│   │   │   ├── controllers
+│   │   │   ├── mappers
+│   │   │   ├── models
+│   │   │   ├── services
+│   │   │   └── views
+│   │   └── ...
+│   ├── lib (Front end components checked into code, not pulled in via bower)
+│   │   ├── jquery-ui
+│   │   └── ...
+│   ├── images (All app images)
+│   ├── scripts (JS code)
+│   └── styles (All styling code)
+│   │   ├── .css (Compass generated CSS files go in here.)
+│   │   ├── print.css
+│   │   └── ...
+│   └── index.html (Main entry HTML file)
+|
+├── dist (This is the package folder. Similar to a jar)
+│   ├── components (Copied verbatim from app)
+│   │   ├── angular
+│   │   └── ...
+│   ├── images (Copied verbatim from app)
+│   ├── lib (Copied verbatim from app)
+│   │   ├── bootstrap-2.3.0
+│   │   └── ...
+│   ├── modules (Only copy the .html over, JS passes through a separate filter.
+│   │   ├── patient
+│   │   │   └── views
+│   │   └── ...
+│   ├── scripts (Has all the optimized JS here.)
+│   └── styles
+│       └── css (Has all the optimized CSS here.)
+|
+├── node_modules (This holds all the back end modules. )
+|
+├── logs
+├── scripts
+└── test
+    ├── config (Karma config)
+    ├── e2e
+    ├── output (Results of test run)
+    ├── support (Test support code)
+    └── unit (Test code folder)
+                        </pre>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="scripts/dbd26eaf.vendor.js"></script>
 
@@ -201,7 +318,7 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <script src="scripts/b6c3df09.main.js"></script>
+        <script src="scripts/29901112.main.js"></script>
 
         <script src="scripts/8bbb86ce.plugins.js"></script>
 </body>
