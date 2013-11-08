@@ -1,0 +1,74 @@
+@import "compass";
+
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container.wwc {
+    width: 100%;
+
+    background: url("../images/background.png") center center repeat-y;
+    background-size: contain;
+    min-height: 900px;
+
+    @media (min-width: $screen-md) {
+        width: 800px;
+    }
+}
+
+.organizer-logo,
+.banner-logo {
+    margin-top: (4 * $padding-base-vertical);
+    margin-bottom: (4 * $padding-base-vertical);
+}
+
+.teaser {
+    margin: $padding-large-vertical $padding-large-vertical;
+}
+
+.organizer-logo {
+    width: 200px;
+}
+
+.logo {
+    display: inline-block;
+
+    &.windows {
+        background: url("../images/windows-logo.png") no-repeat;
+        width: 24px;
+        height: 14px;
+        background-size: contain;
+    }
+
+    &.linux {
+        background: url("../images/linux-logo.png") no-repeat;
+        width: 17px;
+        height: 14px;
+        background-size: contain;
+    }
+
+    &.mac {
+        background: url("../images/apple-logo.png") no-repeat;
+        width: 17px;
+        height: 14px;
+        background-size: contain;
+    }
+}
+
+.btn-toolbar {
+    &.spaced {
+        margin: $padding-large-vertical 0;
+    }
+}
